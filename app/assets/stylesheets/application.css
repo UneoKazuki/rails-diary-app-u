@@ -1,0 +1,74 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS (and SCSS, if configured) file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+
+.sign-in-u {
+    padding-top: 5px;
+    text-decoration: none;
+    margin: 15px;
+    padding: 0;
+    width: 70px;
+    height: 30px;
+    color: #ccc;
+    background-color: #007bff;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.sign-in-u:hover {
+    background-color: #ccc;
+    color: #007bff;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.signed-btn {
+    text-decoration: none;
+    margin: 15px;
+    
+    padding: 0;
+    width: 70px;
+    height: 30px;
+    color: #ccc;
+    background-color: #007bff;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.signed-btn:hover {
+    background-color: #ccc;
+    color: #007bff;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.grid-u {
+    width: 20%;
+}
+.link-to-u {
+    text-decoration: none;
+    color:black;
+}
+.ctt-title-u {
+     font-size: 150%;
+}
+.dateh-u {
+    width: 40%;
+}
+
+@media (max-width: 768px) {
+    .miniscreen-u {
+      display: flex;  
+    }     
+}

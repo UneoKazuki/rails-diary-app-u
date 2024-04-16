@@ -1,0 +1,10 @@
+<h1>投稿編集</h1>
+
+<%= render "form", idea: @idea %>
+
+<br>
+
+<div>
+  <%= link_to "確認する", @idea, class: "btn btn-success ms-3" %> 
+  <%= link_to "キャンセル", ideas_path, class: "btn btn-secondary ms-3" %>
+</div>
